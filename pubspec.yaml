@@ -1,0 +1,57 @@
+name: todo_with_flutter
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  http: ^1.2.1
+  url_launcher: ^6.3.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application
+  assets:
+    - assets/
+
+  # To add custom fonts to your application
+  fonts:
+    - family: indieFlower
+      fonts:
+        - asset: fonts/indieFlower.ttf
+
+    - family: kalam
+      fonts:
+        - asset: fonts/kalam.ttf
+
+    - family: michroma
+      fonts:
+        - asset: fonts/michroma.ttf
+
+    - family: tiny5
+      fonts:
+        - asset: fonts/tiny5.ttf
+
+    - family: matrix
+      fonts:
+        - asset: fonts/matrix.ttf
